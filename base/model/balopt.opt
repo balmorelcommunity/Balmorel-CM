@@ -399,7 +399,6 @@ $setglobal inputdatatxt ""
 *!option yes         !text make it when solving
 *!option yesnosolve  !text make it but do not solve
 
-
 * Save the input data in gdx format for further processing by Gdx utilities,
 * e.g. viewing (Gdxviewer), comparing (Gdxdiff), or transferring to other data formats like Excel or Access.
 * Note that this will be done as a  compile time operation,
@@ -421,8 +420,8 @@ $setglobal MERGEINPUTDATA yes
 
 * Transfer the input data in gdx format to Microsoft Excel format:
 * NOTWORKING: presently.
-$setglobal INPUTDATAGDX2XLS
-*!option  yes
+*$setglobal INPUTDATAGDX2XLS
+!option  yes
 
 
 *-------------------------------------------------------------------------------
